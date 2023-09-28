@@ -1,7 +1,11 @@
 import {
+  v_c_srikanthan,
+  portfolio,
   aws,
   firebase,
   c,
+  chatty,
+  flutter_voice_assistant,
   python,
   android,
   flutter,
@@ -12,6 +16,8 @@ import {
   backend,
   creator,
   web,
+  dart,
+  mysql,
   javascript,
   typescript,
   html,
@@ -72,12 +78,8 @@ const services = [
 
 const technologies = [
   {
-    name: "Flutter",
-    icon: flutter,
-  },
-  {
-    name: "Android",
-    icon: android,
+    name: "Dart",
+    icon: dart,
   },
   {
     name: "Java",
@@ -116,6 +118,10 @@ const technologies = [
     icon: firebase,
   },
   {
+    name: "MySql",
+    icon: mysql,
+  },
+  {
     name: "git",
     icon: git,
   },
@@ -147,93 +153,77 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "This boy wants to gain his own knowledge and polish his skills.",
+    name: "V.C. Srikanthan",
+    designation: "CEO",
+    company: "ARS Technologies",
+    image: v_c_srikanthan,
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Personal Portfolio",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Experience my personal portfolio website, built on the foundation of HTML, CSS, and JavaScript. This elegant digital showcase encapsulates my professional journey, skills, and achievements. Explore my work, discover my story, and connect with me seamlessly on this responsive web platform.",
     tags: [
       {
-        name: "react",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Java Script",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: portfolio,
+    source_code_link: "https://github.com/joymridha2004/Personal_Portfolio_JOYMRIDHA",
+  },
+  {
+    name: "Chatty",
+    description:
+      "Discover our cross-platform Flutter chat app for connecting with both familiar and new contacts while prioritizing your privacy. It’s your gateway to seamless communication. Connect confidently with friends and expand your social circle securely. Experience modern chatting with privacy in mind.",
+    tags: [
+      {
+        name: "Flutter",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Dart",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: chatty,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Flutter Voice Assistant",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Meet our Flutter-based voice assistant app, designed to connect you with CHATGPT seamlessly. Enjoy effortless interactions with CHATGPT using natural voice commands. This app revolutionizes the way you access information and perform tasks. Experience the future of AI-assisted conversations.",
     tags: [
       {
-        name: "react",
+        name: "Flutter",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Dart",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "ChatGPT & Dall-E API",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: flutter_voice_assistant,
+    source_code_link: "https://github.com/joymridha2004/Flutter_Voice_Assistant_App",
   },
 ];
 
