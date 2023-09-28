@@ -47,11 +47,14 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        Hello, I'm Joy Mridha, a dedicated BCA (Honours) student at NSEC Kolkata 
+        with a strong passion for software development. I've immersed myself in 
+        various technologies, including Android and Flutter app development, as 
+        well as web development, constantly expanding my skillset. I thrive on 
+        collaborating with others, embracing new challenges, and exploring the 
+        ever-evolving tech landscape. My commitment to continuous learning and 
+        unwavering focus on the future drives my ambition to excel in the world 
+        of software development.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
