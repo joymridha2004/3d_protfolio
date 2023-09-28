@@ -1,8 +1,8 @@
 import {
-    mobile,
-    backend,
-    creator,
-    web,
+    design,
+    android,
+    webapp,
+    flutter,
     javascript,
     typescript,
     html,
@@ -42,20 +42,20 @@ import {
   
   const services = [
     {
+      title: "Flutter Developer",
+      icon: flutter,
+    },
+    {
+      title: "Android Developer",
+      icon: android,
+    },
+    {
       title: "Web Developer",
-      icon: web,
+      icon: webapp,
     },
     {
-      title: "React Native Developer",
-      icon: mobile,
-    },
-    {
-      title: "Backend Developer",
-      icon: backend,
-    },
-    {
-      title: "Content Creator",
-      icon: creator,
+      title: "UI/UX Designer",
+      icon: design,
     },
   ];
   

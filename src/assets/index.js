@@ -2,6 +2,10 @@ import logo from "./logo.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
+import android from "./android.png";
+import flutter from "./flutter.png";
+import design from "./design.png";
+import webapp from "./webapp.png";
 import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
@@ -31,6 +35,8 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  flutter,
+  android,
   logo,
   backend,
   creator,
@@ -59,4 +65,6 @@ export {
   carrent,
   jobit,
   tripguide,
+  design,
+  webapp,
 };
