@@ -85,6 +85,7 @@ const Contact = () => {
             <input
               type='text'
               name='name'
+              required
               value={form.name}
               onChange={handleChange}
               placeholder="What's your good name?"
@@ -96,6 +97,7 @@ const Contact = () => {
             <input
               type='email'
               name='email'
+              required
               value={form.email}
               onChange={handleChange}
               placeholder="What's your web address?"
@@ -107,19 +109,28 @@ const Contact = () => {
             <textarea
               rows={7}
               name='message'
+              required
               value={form.message}
               onChange={handleChange}
               placeholder='What you want to say?'
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
-
-          <button
+          <div style={{ display: 'flex', justifyContent: 'space-between'}}>
+            <button
             type='submit'
             className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
-          >
+            >
             {loading ? "Sending..." : "Send"}
-          </button>
+            </button>
+            <a 
+              download
+              href="resume\joymridharesume.pdf"
+              className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
+            >
+              {loading ? "Downloading..." : "Download CV"}
+            </a>
+          </div>  
         </form>
       </motion.div>
 
