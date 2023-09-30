@@ -7,6 +7,8 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
+import CV from '../../resume/joymridharesume.pdf'
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -124,11 +126,11 @@ const Contact = () => {
             {loading ? "Sending..." : "Send"}
             </button>
             <a 
-              download
-              href="resume\joymridharesume.pdf"
+              download="JOY's_Resume"
+              href={CV}
               className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
             >
-              {loading ? "Downloading..." : "Download CV"}
+              Download CV
             </a>
           </div>  
         </form>
